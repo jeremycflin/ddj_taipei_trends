@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="zh-Hant">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>美國媒體視覺新聞趨勢與紐時視覺新聞工作流程</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+		<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic,600italic' rel='stylesheet' type='text/css'>
+   		<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+  </head>
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<style>
+	.slides{
+		font-family: "蘋果麗中黑" !important;
+	}
+
+	h1 {
+		font-family: "華文細黑" !important;
+	}
+
+	img{
+		border:0px !important;
+	}
+
+	.margin-fixeds{
+		margin-top: -0px !important;
+	}
+
+	#goodEx{
+		margin-left: 30px;
+	}
+
+	.highlight{
+		background-color: rgba(233,129,134,.3) !important;
+	}
+
+/*	h1,h2{
+		color:#dda61d !important;
+	}
+*/
+/*	p small{
+		margin-bottom: -20px !important;
+	}*/
+
+	</style>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>美國媒體視覺新聞趨勢與紐時視覺新聞工作流程</h1>
+					<p><small>林辰峰 Jeremy C.F. Lin</small></p>
+				</section>
+
+				<section>
+					<h3>我是誰？</h3>
+					<a href="http://jeremycflin.github.io/" target="blank">
+						<img  data-src="assets/jeremy.jpg" height="400px">
+					</a>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<!-- <section>
+					<h3>視覺新聞趨勢</h3>
+						<img  data-src="http://i.kinja-img.com/gawker-media/image/upload/s--BWJYJsSM--/c_fit,f_auto,fl_progressive,q_80,w_636/18ek1lsfdbiqagif.gif" height="400px">
+				</section>
+				<section>
+					<h3>互動</h3>
+						<img  data-src="http://i.kinja-img.com/gawker-media/image/upload/s--BWJYJsSM--/c_fit,f_auto,fl_progressive,q_80,w_636/18ek1lsfdbiqagif.gif" height="400px">
+				</section> -->
+
+				<section>
+					<h3>2012年的視覺新聞</h3>
+						<a href="http://www.nytimes.com/projects/2012/snow-fall/#/?part=tunnel-creek" target="blank">
+							<img  data-src="assets/new_assets/snowfall.png" height="500px">
+						</a>
+				</section>
+				<section>
+					<h3>2016年的視覺新聞</h3>
+						<p><span class="highlight">手機呈現</span></p>
+						<p><span class="highlight">讀者閱讀習慣</span></p>
+						<p><span class="highlight">科技</span></p>
+						<img  data-src="assets/new_assets/cell.jpg" height="400px">
+						<img  data-src="assets/new_assets/com.jpg" height="300px" width="300px">
+						<img  data-src="assets/new_assets/reader.jpg" height="400px">
+				</section>
+				<section>
+					<h3>重新定義互動新聞</h3>
+					<ul>
+						<li>If you make the reader click or do anything other than scroll, <span class="highlight">something spectacular has to happen</span></li>
+						<li> If you make a tooltip or rollover, assume no one will ever see it. <span class="highlight">If content is important for readers to see, don't hide it</span></li>
+						<li>When deciding whether to make something interactive, remember that getting it to work on all platforms is <span class="highlight">expensive</span></li>
+					</ul>
+				</section>
+				<!-- <section>
+					<h3>越懶越好</h3>
+					<ul>
+						<li>手機興起</li>
+						<li>沒有讀者喜歡點點去，尤其是當讀者在使用手機時</li>
+						<li>Scrolling的線性天性尤其適合新聞內容呈現</li>
+					</ul> -->
+				</section>
+				<section>
+					<h3>減少互動</h3>
+					<p><small>2012</small></p>
+					<a href="http://www.nytimes.com/interactive/2012/09/23/opinion/sunday/the-new-world.html?smid=tw-share" target="blank"><img  data-src="assets/new_assets/old.png" height="500px"></a>
+				</section>
+				<section>
+					<h3>減少互動</h3>
+					<p><small>2015</small></p>
+					<a href="http://www.nytimes.com/interactive/2015/11/21/world/middleeast/inside-raqqa-capital-of-isis.html?smid=pl-share" target="blank"><img  data-src="assets/new_assets/new.gif" height="500px"></a>
+				</section>
+				</section>
+				<section>
+					<h3>用滾動取代點擊</h3>
+					<ul>
+						<li>Scrolling（往下滾動）<span class="highlight">符合讀者使用電腦以及手機的習慣</span></li>
+						<li>沒有讀者喜歡點點去，尤其是當讀者在使用手機時</li>
+						<li>Scrolling的<span class="highlight">線性</span>天性尤其適合新聞內容呈現</li>
+					</ul>
+					<p><small>延伸閱讀：<a href="https://bost.ocks.org/mike/scroll/" target="blank">How to Scroll by Mike Bostock</a></small></p>
+				</section>
+				<section>
+					<h3>用滾動取代點擊</h3>
+					<a href="http://www.nytimes.com/interactive/2015/09/30/business/how-the-us-and-opec-drive-oil-prices.html?_r=0" target="blank"><img  data-src="assets/new_assets/oil.gif" height="500px"></a>
+				</section>
+				<section>
+					<h3>當滾動成為敘事的一部分</h3>
+					<p><small>讀者不用停下來去學習，閱讀也不會被干擾</small></p>
+					<a href="http://www.nytimes.com/interactive/2014/09/14/sports/baseball/jeter-swings.html" target="blank"><img  data-src="assets/new_assets/baseball.gif" height="500px"></a>
+				</section>
+				<section>
+					<h3>當滾動成為敘事的一部分</h3>
+					<p><small>讀者不用停下來去學習，<span class="highlight">閱讀也不會被干擾</span></small></p>
+					<a href="http://www.nytimes.com/interactive/2014/09/19/travel/reif-larsen-norway.html" target="blank"><img  data-src="assets/new_assets/norway.gif" height="600px"></a>
+				</section>
+				<section>
+					<h3>Tooltips減少使用</h3>
+					<ul>
+						<li><span class="highlight">無法手機顯示</span></li>
+						<li>讀者根本不會點</li>
+						<li>不要將資訊藏在互動裡</li>
+					</ul>
+				</section>
+				<section>
+					<h3>純平面資料視覺化的再興起</h3>
+					<ul>
+						<li>手機上顯示迅速</li>
+						<li><span class="highlight">較不花時間製作</span></li>
+						<li>佔用新聞室資源較少</li>
+						<li><a href="http://ai2html.org/" target="black">ai2html</a></li>
+					</ul>
+				</section>
+				<section>
+					<h3>純平面資料視覺化的再興起</h3>
+					<a href="http://www.nytimes.com/interactive/2015/09/14/world/middleeast/syria-war-deaths.html" target="blank"><img  data-src="assets/new_assets/static.png" height="600px"></a>
+				</section>
+				<section>
+					<h3>小短片與Gif</h3>
+					<ul>
+						<li>容易<span class="highlight">分享</span></li>
+						<li>畫面變化不多時，<span class="highlight">可以不斷加強讀者印象</span></li>
+						<li>常被拿來做解釋性新聞</li>
+					</ul>
+					<p><small>延伸閱讀：<a href="https://www.propublica.org/nerds/item/on-repeat-how-to-use-loops-to-explain-anything/" target="blank">On Repeat: How to Use Loops to Explain Anything by Lena Groeger</a></small></p>
+				</section>
+				<section>
+					<h3>小短片與Gif</h3>
+					<a href="http://www.nytimes.com/interactive/2015/12/16/upshot/fed-interest-rates-rube-goldberg-machine.html" target="blank"><img  data-src="assets/new_assets/fed.gif" height="600px"></a>
+				</section>
+				<section>
+					<h3>小短片與Gif</h3>
+					<a href="http://www.ft.com/intl/cms/s/2/98ce14ee-99a6-11e5-95c7-d47aa298f769.html#axzz43VOILrlR" target="blank"><img  data-src="assets/new_assets/ft.gif" height="400px"></a>
+				</section>
+				<section>
+					<h3>用圖表以外的方式製作資料視覺化</h3>
+					<a href="http://www.nytimes.com/interactive/2015/10/11/us/politics/2016-presidential-election-super-pac-donors.html" target="blank"><img  data-src="assets/new_assets/power.gif" height="500px"></a>
+					<!-- <a href="http://www.nytimes.com/interactive/2015/10/11/us/politics/2016-presidential-election-super-pac-donors.html" target="blank" ><img  data-src="assets/new_assets/power2.png" height="300px" width="500px" ></a> -->
+				</section>
+				<section>
+					<h3>用圖表以外的方式製作資料視覺化</h3>
+					<a href="http://www.nytimes.com/interactive/2015/05/21/us/your-contribution-to-the-california-drought.html" target="blank"><img  data-src="assets/new_assets/water.gif" height="500px"></a>
+				</section>
+				<section>
+					<h3>聲音也能視覺化</h3>
+					<a href="http://www.nytimes.com/interactive/2015/08/25/arts/music/justin-bieber-diplo-skrillex-make-a-hit-song.html?_r=0" target="blank"><img  data-src="assets/new_assets/hit.gif" height="500px"></a>
+				</section>
+				<section>
+					<h3>衛星圖</h3>
+					<a href="http://www.nytimes.com/interactive/2015/07/10/science/An-Image-of-Earth-Every-Ten-Minutes.html" target="blank"><img  data-src="assets/new_assets/earth.gif" height="500px"></a>
+				</section>
+				<section>
+					<h3>下標註</h3>
+					<p>“The annotation layer is the most important thing we do” —Amanda Cox</p>
+				</section>
+				<section>
+					<h3>下標註</h3>
+					<a href="http://www.nytimes.com/interactive/2015/12/10/us/gun-sales-terrorism-obama-restrictions.html" target="blank"><img  data-src="assets/new_assets/gun.gif" height="500px"></a>
+				</section>
+				<section>
+					<h3>無人機攝影</h3>
+					<a href="http://www.nytimes.com/interactive/2015/12/10/us/gun-sales-terrorism-obama-restrictions.html" target="blank"><img  data-src="assets/new_assets/green.gif" height="500px"></a>
+				</section>
+				<section>
+					<h3>虛擬實境</h3>
+					<p><small><span class="highlight">帶領讀者到他們平常無法到達的地方</span></small></p>
+					<a href="http://www.nytimes.com/newsgraphics/2015/nytvr/" target="blank"><img  data-src="assets/new_assets/vr.png" height="500px"></a>
+				</section>
+				<section>
+					<h3>資料視覺化也能虛擬實境</h3>
+					<a href="http://graphics.wsj.com/3d-nasdaq/"><img  data-src="assets/new_assets/wsj.png" height="500px"></a>
+				</section>
+				<section>
+					<h3>資料視覺化也能虛擬實境</h3>
+					<a href="http://graphics.latimes.com/mars-gale-crater-vr/"><img  data-src="assets/new_assets/la.png" height="500px"></a>
+				</section>
+				<section>
+					<h3>workflow</h3>
+					<img  data-src="assets/new_assets/workflow.jpg">
+				</section>
+				<section>
+					<h3>workflow</h3>
+					<p>You think it's done? NOT YET</p>
+					<img src="http://media.giphy.com/media/IV2DvTArF5b9u/giphy.gif" width="480" height="480" alt="meltdown" >
+				</section>
+				<section>
+					<h3>行銷你的作品</h3>
+					<img  data-src="assets/new_assets/workflow2.jpg">
+				</section>
+				<section>
+					<h3>Homepage promo</h3>
+					
+					<img src="assets/new_assets/promo.png"height="550" alt="meltdown" >
+				</section>
+				<section>
+					<h3>案例探討</h3>
+					<a href="http://www.nytimes.com/interactive/2015/12/18/world/asia/air-pollution-widespread-china-beijing-red-alert-maps-charts.html?smid=pl-share" target="blank">
+					<img src="assets/new_assets/bei.png"height="550px" alt="meltdown" ></a>
+				</section>
+				<section>
+						<h3>案例探討</h3>
+						<a href="http://www.nytimes.com/interactive/2016/02/04/us/flint-water-lead-maps.html?smid=pl-share&_r=0" target="blank"><img  data-src="assets/flint.png" height="550px"></a>
+				</section>
+			
+
+					
+					
+					
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
